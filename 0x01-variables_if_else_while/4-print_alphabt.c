@@ -1,20 +1,20 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
- * Description: A program that prints all the alphabet expect q and e
- * in lowercase followed by a newline.
- * return: 0
- */
+* main - Print the alphabet in lowercase letters, except for e and q
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-	char a = 'a';
+	char letter = 'a';
 
-	while (a <= 'z')
+	while (letter <= 'z')
 	{
-		if (a != 'q' && a != 'e')
-			putchar(a);
-		a++;
+		if (letter != 'q' && letter != 'e')
+			putchar(letter);
+		letter++;
 	}
-	putchar ('\n');
+	putchar('\n');
 	return (0);
 }
