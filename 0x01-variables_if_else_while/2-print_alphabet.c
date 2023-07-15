@@ -9,7 +9,7 @@ int main(void)
 {
 	char myLet;
 
-	for (myLet = 'a'; <= 'z'; myLet++)
+	for (myLet = 'a'; myLet <= 'z'; myLet++)
 	{
 		putchar(myLet);
 		putchar(' ');
