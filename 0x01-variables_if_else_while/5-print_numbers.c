@@ -9,9 +9,9 @@ int main(void)
 
 	while (b < 10)
 	{
-		putchar(b);
+		printf("%d", b);
 		b++;
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
