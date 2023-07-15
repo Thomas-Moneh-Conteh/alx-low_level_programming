@@ -1,12 +1,10 @@
 #include <stdio.h>
-
 /**
- * main - Entry point
+ * main - main block
  * Description:  prints the alphabet in lowercase,
  * and then in uppercase, followed by a new line.
- * return: 0
+ * Return: 0
  */
-
 int main(void)
 {
 	char m = 'a';
@@ -22,8 +20,7 @@ int main(void)
 		putchar(n);
 		n++;
 	}
+
 	putchar('\n');
-
 	return (0);
-
 }
