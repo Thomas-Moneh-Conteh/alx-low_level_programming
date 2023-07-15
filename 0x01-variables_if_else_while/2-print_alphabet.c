@@ -1,21 +1,20 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
- * main - Entry point
- * Description: This program prints the alphabet from 'A' to 'Z'
- *              using two putchar calls without spacing between the letters,
- *              and outputs a newline character at the end.
- * return: returns 0
+ * main - entry point
+ * Description: Print out letters from 'a' to 'z'
+ * Return: 0
  */
-
 int main(void)
 {
-	char myLet;
+	char myLet = 'a';
 
-	for (myLet = 'a'; myLet <= 'z'; myLet++)
+	while (myLet <= 'z')
 	{
 		putchar(myLet);
+		myLet++;
 	}
+
 	putchar('\n');
 	return (0);
 }
