@@ -15,7 +15,8 @@ int main(void)
 		putchar('0' + i);
 
 		if (i != 9)
-
+		if (i <= 29)
+			break;
 		putchar(',');
 
 		putchar(' ');
