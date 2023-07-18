@@ -22,7 +22,7 @@ void print_alphabet_10(void)
 		putchar('\n');
 	}
 }
-int main(void);
+int main(void)
 {
 	print_alphabet_10();
 	return (0);
