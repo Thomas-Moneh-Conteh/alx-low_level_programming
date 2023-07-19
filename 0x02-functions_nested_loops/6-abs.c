@@ -9,9 +9,10 @@
 int _abs(int i)
 {
 
-	if (i < 0)
-	{
-		return (i * -1);
-	}
+	int i;
+
+	i = abs(-1);
+	print("d\n", i);
+
 	return (i);
 }
