@@ -2,13 +2,23 @@
 
 /**
  * print_last_digit - prints the last digit of a number
- * @d: the digit to be printed
+ * @n: the digit to be printed
  * Return: always 0.
  */
 
-int print_last_digit(int d)
+int print_last_digit(int n)
 {
-int last_digit = d % 100;
-printf("%d\n", last_digit);
-return (last_digit);
+	int a;
+
+	if (n < 0)
+		n = -n;
+
+	a = n % 10;
+
+	if (a < 0)
+		a = -a;
+
+	_putchar(a + '0');
+
+	return (a);
 }
