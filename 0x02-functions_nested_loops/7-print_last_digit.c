@@ -8,11 +8,7 @@
 
 int print_last_digit(int d)
 {
-	int last_digit;
-
-	if (d < 0)
-	d = -d;
-	last_digit = d % 100;
-	putchar('0' + last_digit / 100);
-	return (last_digit);
+int last_digit = d % 100;
+printf("%d\n", last_digit);
+return (last_digit);
 }
