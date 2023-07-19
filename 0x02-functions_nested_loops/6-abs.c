@@ -9,7 +9,7 @@
 int _abs(int i)
 {
 	i = abs(-1);
-	printf("d\n", i);
+	printf(i);
 
 	return (i);
 }
