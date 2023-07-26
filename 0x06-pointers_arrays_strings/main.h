@@ -1,5 +1,5 @@
-#ifndef MAIN_HEADER_FILE
-#define MAIN_HEADER_FILE
+#ifndef MAIN_HEADER_FILES
+#define MAIN_HEADER_FILES
 
 int _putchar(char c);
 char *_strcat(char *dest, char *src);
