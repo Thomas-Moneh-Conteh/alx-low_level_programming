@@ -13,21 +13,11 @@
 
 int main(int argc, char *argv[])
 {
-	int i;
-	int multiply = 1;
-
-	if (argc > 1)
-	{
-		for (i = 1; i < argc; i++)
-		{
-			multiply *= atoi(argv[i]);
-		}
-		printf("%d\n", multiply);
-		return (0);
-	}
-	else
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
+	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+	return (0);
 }
